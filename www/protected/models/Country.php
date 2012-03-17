@@ -1,7 +1,8 @@
 <?php
 
-class City_ extends CActiveRecord
+class Country extends CActiveRecord
 {
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return CActiveRecord the static model class
@@ -16,7 +17,7 @@ class City_ extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return '{{city_}}';
+		return '{{country}}';
 	}
 
 	/**

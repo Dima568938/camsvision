@@ -72,10 +72,12 @@ class FindController extends CController
             {
                 $query = $model->query;
                 $sex = $model->sex;
-                $country = $model->country;
-                $city = $model->city;
+                $country = Country::model()->findByPk($model->country)->country_name_ru; // id страны нужно преобразовать в название
 
-                $dataProvider = Chat::model()->findChat($query, $sex, $country, $city);
+                $city = $model->city;
+                $category = $model->category;
+
+                $dataProvider = Chat::model()->findChat($query, $sex, $country, $city, $category);
 
                 $dataProvider->pagination = array(
                     'pageSize'=>self::CHAT_PER_PAGE,
@@ -107,6 +109,50 @@ class FindController extends CController
                 'model'=>$model,
             ));
 
+        }
+    }
+
+
+    //TODO: доработать экшн
+    public function actionGetCity()
+    {
+
+        if (Yii::app()->request->isAjaxRequest)
+
+        {
+            $cityModel = City::model()->findAll('id_country='.$_GET['id'],
+                array('order' => 'city_name_ru'));
+
+            // при помощи listData создаем массив вида $ключ=>$значение
+            $list = CHtml::listData($cityModel,
+                'city_name_ru', 'city_name_ru');
+
+       // echo CHtml::labelEx($cityModel,'city');
+         echo CHtml::dropDownList('FindForm[city]','city',$list,array('empty'=>'Выберите город'));
+
+        }
+
+    }
+
+    public function actionAutoComplete() {
+
+        if (isset($_GET['q'])) {
+
+            $criteria = new CDbCriteria;
+            $criteria->condition = 'title LIKE :title';
+            $criteria->params = array(':title'=>$_GET['q'].'%');
+
+            if (isset($_GET['limit']) && is_numeric($_GET['limit'])) {
+                $criteria->limit = $_GET['limit'];
+            }
+
+            $chats = Chat::model()->findAll($criteria);
+
+            $resStr = '';
+            foreach ($chats as $chat) {
+                $resStr .= $chat->title."\n";
+            }
+            echo $resStr;
         }
     }
 

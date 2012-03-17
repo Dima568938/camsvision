@@ -4,7 +4,7 @@
     //'ajaxUpdate'=>true,
     'dataProvider'=>$dataProvider,
     'itemView'=>'_view',
-    'ajaxUrl'=>Yii::app()->createUrl('find/AjaxFind'),
+    'ajaxUrl'=>Yii::app()->createUrl('find/index'),
     //'ajaxVar'=>'content',
     //'viewData'=>array(),
     'template'=>"{items}\n{pager}",

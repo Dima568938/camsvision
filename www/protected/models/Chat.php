@@ -268,18 +268,22 @@ class Chat extends CActiveRecord
      * Retrieves a list of models based on the current search/filter conditions.
      * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
      */
-    public function findChat($query, $sex, $country, $city)
+    public function findChat($query, $sex, $country, $city, $category)
     {
 
         $criteria=new CDbCriteria();
 
         $criteria->with = array('author');
         $criteria->together = true;
-
+//TODO: оптимизировать
         $criteria->addSearchCondition('title',$query);
-        $criteria->compare('author.sex',$sex);
-        $criteria->compare('author.country',$country);
-        $criteria->compare('author.city',$city);
+        if ($sex != User::SEX_UNKNOWN) $criteria->compare('author.sex', $sex);
+         $criteria->compare('cat_id', $category);
+        if ($country=='0') $country=null;
+        if ($city=='0') $city=null;
+
+        $criteria->addSearchCondition('author.country', $country);
+        $criteria->addSearchCondition('author.city', $city);
 
         $criteria->order = 't.create_time DESC';
 

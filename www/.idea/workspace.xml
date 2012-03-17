@@ -32,7 +32,30 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/find/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="63" selection-start="976" selection-end="976" vertical-scroll-proportion="-15.615385">
+            <state line="128" column="10" selection-start="4790" selection-end="4790" vertical-scroll-proportion="-22.73077">
+              <folding>
+                <element signature="e#566#878#0" expanded="true" />
+                <marker date="1332026225859" expanded="true" signature="4334:4415" placeholder="..." />
+                <marker date="1332026225859" expanded="true" signature="5204:5245" placeholder="..." />
+                <marker date="1332026225859" expanded="true" signature="5304:5348" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chat.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/Chat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="280" column="47" selection-start="7949" selection-end="7958" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/FindController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="87" selection-start="2205" selection-end="2214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -41,16 +64,7 @@
       <file leaf-file-name="_content.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/find/_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="51" selection-start="200" selection-end="208" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CBaseListView.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Yii/zii/widgets/CBaseListView.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="105" selection-end="106" vertical-scroll-proportion="-2.4">
+            <state line="6" column="48" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,15 +79,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/FindController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="61" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Member.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/Member.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,8 +88,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Country_.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/Country_.php">
+      <file leaf-file-name="Country.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/Country.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -92,28 +106,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="City_.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/models/City_.php">
+      <file leaf-file-name="City.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/City.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="486" selection-end="569" vertical-scroll-proportion="0.3928113">
+            <state line="28" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindForm.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FindForm.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/models/FindForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="44" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="24" selection-start="4308" selection-end="4308" vertical-scroll-proportion="0.0">
+            <state line="21" column="54" selection-start="460" selection-end="460" vertical-scroll-proportion="0.45827985">
               <folding />
             </state>
           </provider>
@@ -133,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/components/NewChatListWidget/NewChatListWidget.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/components/ActivityWidget/ActivityWidget.php" />
         <option value="$PROJECT_DIR$/protected/components/ActivityWidget/views/widget.php" />
         <option value="$PROJECT_DIR$/protected/models/User.php" />
@@ -142,13 +145,15 @@
         <option value="$PROJECT_DIR$/protected/controllers/ChatController.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/views/find/_find.php" />
-        <option value="$PROJECT_DIR$/protected/models/FindForm.php" />
         <option value="$PROJECT_DIR$/protected/views/find/_view.php" />
-        <option value="$PROJECT_DIR$/protected/models/Chat.php" />
-        <option value="$PROJECT_DIR$/protected/views/find/_content.php" />
-        <option value="$PROJECT_DIR$/protected/views/find/index.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/FindController.php" />
         <option value="$PROJECT_DIR$/protected/models/City_.php" />
+        <option value="$PROJECT_DIR$/protected/views/find/_content.php" />
+        <option value="$PROJECT_DIR$/protected/models/Country_.php" />
+        <option value="$PROJECT_DIR$/protected/models/City.php" />
+        <option value="$PROJECT_DIR$/protected/views/find/index.php" />
+        <option value="$PROJECT_DIR$/protected/models/Chat.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/FindController.php" />
+        <option value="$PROJECT_DIR$/protected/models/FindForm.php" />
       </list>
     </option>
   </component>
@@ -225,60 +230,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widgets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zii" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -730,7 +681,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-510" y="-1088" width="1884" height="1096" extended-state="6" />
+    <frame x="-510" y="-1088" width="1884" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1945055" sideWeight="0.8315565" order="3" side_tool="false" content_ui="tabs" />
@@ -826,13 +777,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Yii/base/CApplication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="12" selection-start="4991" selection-end="4991" vertical-scroll-proportion="0.3329114">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/find/_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="66" selection-start="665" selection-end="665" vertical-scroll-proportion="-11.769231">
@@ -843,13 +787,6 @@
     <entry file="file://$PROJECT_DIR$/protected/config/local_debug_config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5240128">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="28" selection-start="7587" selection-end="7587" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -882,37 +819,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/FindForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="44" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/find/_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="200" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/find/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="976" selection-end="976" vertical-scroll-proportion="-15.615385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Like.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6842105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/FindController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="61" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -924,16 +833,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Country_.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/City_.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/find/_content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="486" selection-end="569" vertical-scroll-proportion="0.3928113">
+        <state line="6" column="48" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/City.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/find/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="10" selection-start="4790" selection-end="4790" vertical-scroll-proportion="-22.73077">
+          <folding>
+            <element signature="e#566#878#0" expanded="true" />
+            <marker date="1332026225859" expanded="true" signature="4334:4415" placeholder="..." />
+            <marker date="1332026225859" expanded="true" signature="5204:5245" placeholder="..." />
+            <marker date="1332026225859" expanded="true" signature="5304:5348" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="280" column="47" selection-start="7949" selection-end="7958" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/FindController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="87" selection-start="2205" selection-end="2214" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/FindForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="54" selection-start="460" selection-end="460" vertical-scroll-proportion="0.45827985">
           <folding />
         </state>
       </provider>

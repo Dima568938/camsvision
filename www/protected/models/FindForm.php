@@ -17,9 +17,9 @@ class FindForm extends CFormModel
     {
         return array(
             // name, email, subject and body are required
-            array('query', 'required'),
+           // array('query', 'required'),
             // email has to be a valid email address
-            array('query, sex, country, city', 'safe'),
+            array('query, sex, country, city, category', 'safe'),
             // verifyCode needs to be entered correctly
             //array('verifyCode', 'captcha', 'allowEmpty'=>!CCaptcha::checkRequirements()),
         );
