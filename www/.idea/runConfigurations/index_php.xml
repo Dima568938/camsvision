@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" editBeforeRun="true" break_at_the_first_line="true" path="$PROJECT_DIR$/index.php" scriptParameters="viewer_id=3214" workingDirectory="$PROJECT_DIR$">
+    <CommandLine workingDirectory="$PROJECT_DIR$" />
+    <Debug break_at_the_first_line="true" />
+    <RunnerSettings RunnerId="PhpRunner" />
+    <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+    <ConfigurationWrapper RunnerId="PhpRunner" />
+    <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+    <method />
+  </configuration>
+</component>
